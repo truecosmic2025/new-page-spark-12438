@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
-import valentinePhoto from "@/assets/valentine-coach.jpg";
+import sarahPhoto from "@/assets/sarah-coach.jpg";
 
 export const CoachSection = () => {
   const coachingPoints = [
@@ -69,7 +69,7 @@ export const CoachSection = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(0,229,255,0.2)]">
               <img 
-                src={valentinePhoto} 
+                src={sarahPhoto} 
                 alt="Sarah Ramsarran - Self-Concept & Identity Reset Coach" 
                 className="w-full h-full object-cover"
               />
