@@ -15,7 +15,7 @@ export const CTASection = () => {
         </h2>
         
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Book your <span className="text-primary font-semibold">free, no-pressure</span> 30-minute consult with <span className="font-semibold text-foreground">Valentine Wairimu</span>. Leave with a clear <span className="font-semibold text-foreground">End sentence</span>, <span className="font-semibold text-foreground">one best-fit technique</span>, and a <span className="font-semibold text-foreground">personal coaching recommendation</span>.
+          Book your <span className="text-primary font-semibold">free, no-pressure</span> 30-minute consult with <span className="font-semibold text-foreground">Sarah Ramsarran</span>. Leave with a clear <span className="font-semibold text-foreground">End sentence</span>, <span className="font-semibold text-foreground">one best-fit technique</span>, and a <span className="font-semibold text-foreground">personal coaching recommendation</span>.
         </p>
 
         <div className="flex flex-col items-center gap-4 mb-10">

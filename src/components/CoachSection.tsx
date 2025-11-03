@@ -30,14 +30,14 @@ export const CoachSection = () => {
             Specialty: Self-Concept & Identity Reset
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Meet Your Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Valentine Wairimu</span>
+            Meet Your Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Sarah Ramsarran</span>
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           {/* Coach info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-foreground">Hi, I'm Valentine.</h3>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Hi, I'm Sarah.</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               I coach through the lens of <span className="text-primary font-semibold">self-concept</span>—retraining the story of who you are so your life reflects it. Expect clarity, honest encouragement, and simple steps you'll actually do.
             </p>
@@ -61,7 +61,7 @@ export const CoachSection = () => {
               className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
               onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Book with Valentine — Free 30 Minutes
+              Book with Sarah — Free 30 Minutes
             </Button>
           </div>
 
@@ -70,7 +70,7 @@ export const CoachSection = () => {
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(0,229,255,0.2)]">
               <img 
                 src={valentinePhoto} 
-                alt="Valentine Wairimu - Self-Concept & Identity Reset Coach" 
+                alt="Sarah Ramsarran - Self-Concept & Identity Reset Coach" 
                 className="w-full h-full object-cover"
               />
             </div>

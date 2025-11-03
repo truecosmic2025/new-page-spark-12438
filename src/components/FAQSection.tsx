@@ -17,7 +17,7 @@ export const FAQSection = () => {
     },
     {
       question: "Do I need Neville experience?",
-      answer: "No—Valentine keeps it simple and practical.",
+      answer: "No—Sarah keeps it simple and practical.",
     },
     {
       question: "Is it really free?",

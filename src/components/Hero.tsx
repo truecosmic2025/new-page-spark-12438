@@ -32,7 +32,7 @@ export const Hero = () => {
 
         {/* Subheadline */}
         <p className="mb-8 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Reserve a <span className="text-primary font-semibold">free 30-minute clarity consult</span> with <span className="font-semibold text-foreground">Valentine Wairimu</span>. We'll spot the real block, choose <span className="font-semibold text-foreground">one technique</span> to start with, and share the <span className="font-semibold text-foreground">right coaching path</span> to build momentum—rooted in <span className="font-semibold text-foreground">self-concept and identity reset</span>.
+          Reserve a <span className="text-primary font-semibold">free 30-minute clarity consult</span> with <span className="font-semibold text-foreground">Sarah Ramsarran</span>. We'll spot the real block, choose <span className="font-semibold text-foreground">one technique</span> to start with, and share the <span className="font-semibold text-foreground">right coaching path</span> to build momentum—rooted in <span className="font-semibold text-foreground">self-concept and identity reset</span>.
         </p>
 
         {/* Trust badges */}
