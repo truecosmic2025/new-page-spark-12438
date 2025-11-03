@@ -22,7 +22,7 @@ export const TestimonialsSection = () => {
     },
     {
       text: "Tiny steps made it stick—no overwhelm.",
-      author: "Rachel T.",
+      author: "Crispin M.",
       role: "",
       avatar: testimonialAvatar3,
     },
