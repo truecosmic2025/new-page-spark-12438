@@ -28,7 +28,7 @@ export const CTASection = () => {
 
         <Button 
           size="lg" 
-          className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-12 text-lg h-14 mb-4 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
+          className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-6 sm:px-12 text-base sm:text-lg h-auto py-4 mb-4 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all whitespace-normal max-w-full"
           onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
         >
           Book Your Clarity Consultation — Act Now
