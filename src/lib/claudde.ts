@@ -1,26 +1,15 @@
 /**
- * Opens the Claudde chat widget by clicking its launcher button inside the
- * widget's shadow DOM. Retries for a few seconds if the widget hasn't
- * mounted yet (the script loads with `defer`).
+ * Opens Claudde through its public API. Retries while the deferred widget
+ * script is still initializing so a CTA click is not lost on first load.
  */
 export function openClauddeWidget(maxAttempts = 20, intervalMs = 250): void {
   let attempts = 0;
 
   const tryOpen = (): boolean => {
-    const hosts = Array.from(document.querySelectorAll("*")).filter(
-      (el) => el.shadowRoot
-    );
+    if (!window.Claudde?.open) return false;
 
-    for (const host of hosts) {
-      const launcher = host.shadowRoot!.querySelector<HTMLElement>(
-        "button, [role='button'], .claudde-launcher, .launcher"
-      );
-      if (launcher) {
-        launcher.click();
-        return true;
-      }
-    }
-    return false;
+    window.Claudde?.open();
+    return true;
   };
 
   if (tryOpen()) return;

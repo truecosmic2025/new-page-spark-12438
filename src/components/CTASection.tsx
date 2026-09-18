@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { TrendingUp } from "lucide-react";
+import { openClauddeWidget } from "@/lib/claudde";
 
 export const CTASection = () => {
   return (
@@ -29,7 +30,10 @@ export const CTASection = () => {
         <Button 
           size="lg" 
           className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-6 sm:px-12 text-base sm:text-lg h-auto py-4 mb-4 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all whitespace-normal max-w-full"
-          onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => {
+            document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+            openClauddeWidget();
+          }}
         >
           Book Your Clarity Consultation — Act Now
         </Button>
